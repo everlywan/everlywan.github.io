@@ -1,4 +1,15 @@
-{% include "base1.html" %}
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta name="viewport" content="with=devie-width, initial-scale=1.0">
+    <title>Everly Wan's Portfolio</title>
+    <link rel="stylesheet" href="static/styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100:200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
 <body>
     <section class="sub-header2">
@@ -25,7 +36,24 @@
 
         <h1>My Academics & Awards</h1>
     </section>
-    {% include "base3.html" %}
+<div class="leftside">
+    <div class="row">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About-Me</a></li>
+            <!--<li><a href="/academic">Academics</a></li>-->
+            <li><a href="/award">Awards</a></li>
+            <li><a href="/athletic">Athletics</a></li>
+            <li><a href="/dubbing">Voice-Acting</a></li>
+            <li><a href="/teaching">Teaching</a></li>
+            <li><a href="/book">Book</a></li>
+            <li><a href="/volunteering">Volunteering</a></li>
+            <li><a href="/clubs">Clubs</a></li>
+            <!--<li><a href="/work">Working-Experiences</a></li>-->
+            <li><a href="/arts">Arts</a></li>
+        </ul>
+    </div>
+</div>
     <section class="volunteer">
         <h1>Academics</h1>
         <br>
@@ -69,5 +97,28 @@ using it to build a version of myself that’s not only hardworking, but always 
         </div>
     </section>
 
+<section class="footer">
+    <h4><a href="/about">About Me</a></h4>
+    <p>Hello! I am Everly Wan, a high school student with a passiion for academic excellence, creative pursuits, and meaningful contributions
+        to my community. Since immigrating to the U.S. in 2022, I have embraed challenges and opporutinities to grow as a cholar,
+        artist, and leader. Exmplor my journey, achievements and aspirations through this portfolio!</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> By Everly Wan assisted by Wan's Family</p>
+</section>
 
-    {% include "base2.html" %}
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
