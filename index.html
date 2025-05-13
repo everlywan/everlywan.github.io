@@ -1,0 +1,336 @@
+{% include "base1.html" %}
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="static/styles/images/x_study.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About-Me</a></li>
+                    <!--<li><a href="/academic">Academics</a></li>-->
+                    <li><a href="/award">Awards</a></li>
+                    <li><a href="/athletic">Athletics</a></li>
+                    <li><a href="/dubbing">Voice-Acting</a></li>
+                    <li><a href="/teaching">My-Teaching</a></li>
+                    <li><a href="/book">My-Book</a></li>
+                    <li><a href="/volunteering">Volunteering</a></li>
+                    <li><a href="/clubs">Clubs</a></li>
+                    <li><a href="/arts">Arts</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>      
+        
+        <div class="text-box">
+            <h1>Welcome to Everly Wan's Portfolio</h1>
+            <p>Hello! I am Everly Wan, a high school student with a passiion for academic excellence, creative pursuits,
+                and meaningful contributions
+                <br>to my community. Since immigrating to the U.S. in <span style="font-weight:bold;text-decoration:underline;">2022</span>, I have embraed challenges and opporutinities
+                to grow as a cholar,
+                <br>artist, and leader. Exmplor my journey, achievements and aspirations through this portfolio!
+            </p>
+            <a href="/about" class="hero-btn know-more">Visit Me to Know More</a>
+        </div>
+    </section>
+    {% include "base3.html" %}
+    <section class="academic">
+        <h1>Academics</h1>
+        <p>You will notice <span style="font-weight:bold;text-decoration:underline;">my growth and progress</span> throughout my 4 years in high school.</p>
+
+        <div class="row">
+            <div class="academic-col">
+                <h3>Grade</h3>
+                <p> All Courses: A and A+
+                </p>
+            </div>
+            <div class="academic-col">
+                <h3>GPA</h3>
+                <p>Accumulative GPA (Unweighted): 4.000<br>
+                    Accumulative GPA (Weighted): 4.375<br><br>
+                    <h3>2024-2025 (Fall Semister)</h3><br>
+                    GPA by term (Unweighted): 4.000<br>
+                    GPA by term (weighted): 4.833</p>
+            </div>
+            <div class="academic-col">
+                <h3>SAT</h3>
+                <p>PSAT: 1300<br>
+                    SAT: waiting - Apr 2025
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="awards">
+        <h1>Honors and Awards</h1>
+        <p>Cherry Creek High School Awards</p>
+        <div class="row">
+            <div class="awards-col">
+                <img src="static/styles/images/2023.jpg">
+                <!--<div class="layer">
+                    <h3>Outstanding Achievement in English Language Acquisition</h3>
+                </div>-->
+                <h3>Outstanding Achievement in English Language Acquisition<br><br>(2023)</h3>
+                <p>This Award is given once per year, with fewer than 10 recipients across all four grades at Cherry Creek High School<br><br>
+                (The <span style="font-weight:bold;text-decoration:underline;">former name</span> shown before normalizating)</p>
+            </div>
+            <div class="awards-col">
+                <img src="static/styles/images/2024.jpg">
+                <!--<div class="layer">
+                    <h3>Scholar Award for Math</h3>
+                </div>-->
+                <h3>Scholar Award for Math<br><br>(2024)</h3>
+                <p>This Award is given once per year, with fewer than 10 recipients across all four grades at Cherry Creek High School</p>
+            </div>
+            <div class="awards-col">
+                <img src="static/styles/images/FBLA_2024.jpg">
+                <!--<div class="layer">
+                    <h3>1st Place Computer Game & Simulation Programming</h3>
+                </div>-->
+                <h3>1st Place Computer Game & Simulation Programming<br><br>(2025)</h3>
+                <p>1st Place Computer Game & Simulation Programming in the FBLA District Competition</p>
+            </div>
+        </div>
+    </section>
+    <section class="athletics">
+        <h1>Athletics</h1>
+        <p>I have a deep passion for athletics and an active lifestyle. I regularly participate in various sports and events, including Bolder Boulder 10K
+            running race and dragon boat competition In addition to these exciting challenges, I maintain a consistent routine of running twice a week, 
+            which keeps me energized and focused.
+        </p>
+        <div class="row">
+            <div class="athletics-col">
+                <a href="/athletic"><img src="static/styles/images/bb_6mile.jpg"> </a>
+                <h3>Bolder Boulder 10K</h3>
+                <p>The Bolder Boulder is an annual 10-kilometer run in Boulder, Colorado. The 2007 race featured over 54,000 runners, 
+                    making it the second largest largest 10k race in the US and the fifth largest road race in the world.</p>
+            </div>
+            <div class="athletics-col">
+                <a href="/athletic"><img src="static/styles/images/dragonboat2.jpg"></a>
+                <h3>Dragon Boat Race</h3>
+                <p>One of my favorite cultural events is the annual Dragon Boat Race, which I’ve participated in and enjoyed deeply. 
+                    Dragon boat racing is more than just a sport—it’s a vibrant tradition rooted in the Chinese Dragon Boat Festival, or Duanwu Jie. 
+                    This festival honors the ancient poet Qu Yuan and is celebrated by racing long, narrow boats in rhythmic unison to the beat of drums. 
+                    I love the energy of the race, the teamwork it demands, and the cultural pride it inspires. Paddling together with others, 
+                    feeling the water rush by, and hearing the crowd cheer—it’s an unforgettable experience that connects me not only to my heritage, 
+                    but also to a larger community. For me, the dragon boat race isn’t just about winning—it’s about spirit, tradition, and joy.
+                </p>
+            </div>
+            <div class="athletics-col">
+                <a href="/athletic"><img src="static/styles/images/bb_15.jpg"></a>
+                <h3>Running</h3>
+                <p>Running has always been a part of who I am. It’s more than just a form of exercise—it’s a commitment I’ve kept to myself over the years. 
+                    I run twice a week, usually for about two hours each session, not out of obligation, but because it brings me clarity, strength, 
+                    and a sense of peace. Every summer, I also participate in the Bolder Boulder 10K event, which has become a personal tradition 
+                    and a way to celebrate my passion for running alongside a larger community. Whether I’m training alone or running with thousands, 
+                    this is where I feel most focused, most free, and most myself.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="extracurriculars">
+        <h1>Extracurricular Activities</h1>
+        <p>In addition to excelling academically and maintaining straigh A's in all my courses, I actively participated in various activies.
+            These include volunteering at the Denver Rescue Mission, creating my own Youtube channel to teach SAT math, joining clubs, publishing
+            hundreds of voice acting projects, writing a novel, working during the summers, and exploring computer game programming. I strive to
+            my time to grow and improve myself across diverse fields.
+        </p>
+        <div class="row">
+            <div class="extracurriculars-col">
+                <a href="/volunteering"><img src="static/styles/images/voluteer1.jpg"></a>
+                <h3>Volunteering</h3>
+                <p>Denver Rescue Mission is changing lives in the name of Christ by meeting people at their physical and spiritual points of need 
+                    with the goal of returning them to society as productive, self-sufficient citizens.
+                </p>
+            </div>
+            <div class="extracurriculars-col">
+                <a href="/teaching"><img src="static/styles/images/youtube2.jpg"></a>
+                <h3>My Youtbue Channel <br><br>("One SAT Problem For A Day!")</h3>
+                <p>Boost your SAT math score with my daily dose of prolbem-solving tips and tricks. Each video dives deep into a single SAT math problem,
+                    breaking it down step by step to help you understand the concepts, strategies, and techniques needed to ace the test. Whether you're
+                    a beginner or aiming for perfection, this channel is your companion on the road to SAT success.
+                </p>
+            </div>
+            <div class="extracurriculars-col">
+                <a href="/clubs"><img src="static/styles/images/club.png"></a>
+                <h3>My Clubs</h3>
+                <p><ul>
+                    <li>National Honor Society</li>
+                    <li>National Science Bowel</li>
+                    <li>Chinese National Honor Society</li>
+                    <li>FBLA</li>
+                    <li>Math Club</li>
+                </ul>
+                </p>
+            </div>
+            <div class="extracurriculars-col">
+                <a href="/dubbing"><img src="static/styles/images/myvoiceacting.jpg"></a>
+                <h3>Voice Acting</h3>
+                <p>I have a deep passion for voice acting, a journey I began when I was 11 years ago in my elementary school, starting with simple
+                    sentences, songs, and movies before progressing to classic films I truly enjoy the process, often dedicating hours to perfecting
+                     my craft. Voice acting not only helps me speak more naturally but also allows me to connect deeply with the characters in every movie.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="extracurriculars-col">
+                <a href="/teaching" target="_blank"><img src="static/styles/images/mybook.jpg"></a>
+                <h3>My Book</h3>
+                <p>I've written two novels, and this is the the second one, though it's the only one I've published. Inspired by my uncle, who wrote his own
+                    book, I decided to start writing as well I completed the first 10 sections of this novel while I was in middle school and finished the rest
+                    during high school. Since I love drawing, I also created all the illustrations for the book. I hope you enjoy it.
+                </p>
+            </div>
+            <div class="extracurriculars-col">
+                <img src="static/styles/images/myarts.jpg">
+                <h3>My Arts</h3>
+                <p>Like many kids, I've always enjoyed drawing. I'm passionate about it and have spent several years practicing different styles, including
+                    sketching, quick sketches, cartoons, watercolor painting, and oil painting. I even like to add little drawings to my notes whenever
+                    inspiration strikes.
+                </p>
+            </div>
+            <div class="extracurriculars-col">
+                <img src="static/styles/images/mypiano.jpg">
+                <h3>My Piano</h3>
+                <p>I began learning piano from my mom, who encouraged me to pick up a musical instrument. While I'm not a professional player, I still enjoy playing
+                    a few times a week purely for fun, without the pressure of formal lessons anymore : )
+                </p>
+            </div>
+            <div class="extracurriculars-col">
+                <a href="/teaching" target="_blank"><img src="static/styles/images/myworkingexperience.jpg"></a>
+                <h3>Working Experience</h3>
+                <p>I started working part-time during the summer of my senior year to gain more experience and become more independent. These summer jobs not only
+                    helped me make new firends but also taught me how to contribute effectively in a team.
+                </p>
+            </div>
+            <div class="extracurriculars-col">
+                <a href="/teaching" target="_blank"><img src="static/styles/images/computergame.jpg"></a>
+                <h3>My Computer Game<br><br>("Experienced Pilot")</h3>
+                <p>In high shcool, I chose to focus on programming courses, where I first explored game development through Java processing. I practiced extensively,
+                    creating small games with Java, a powerful and versatile language. I especially enjoy the satisfaction of debugging and making progress in my
+                    projects. I also participated in district and state-level Computer Programming Competitions, earning several awards along the way.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h1>What Our Teaches Say</h1>
+        <p>I have the privilege of meeting many amazing teachers in high school. They encouraged and supported me, helping me grow and succeed. When I moved to
+            the US, I faced many challenges adjusting to the pace and improving my language skills. While voice acting helped me significantly, I still dedicated
+            a lot of time to learning and self-improvement I'm deeply grateful to my teachers, who not only imparted knowledge but also offered encouragement
+            and made me feel truly supported and cared for.
+        </p>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="static/styles/images/user1.jpeg">
+                <div>
+                    <p>
+                        Everly is a remarkable student whom I have had the privilege of teaching for the past few years in English classes. Throughout this time, I have been consistently impressed by her dedication, hard work, and unwavering commitment to her academic growth.  Andrea Aldridge, Cherry Creek High School teacher
+ <br><br>
+Everly is a diligent and focused individual who approaches her studies with a level of seriousness that is commendable; she consistently puts in extra effort, whether it be through preparation for assignments or seeking out additional resources to deepen her understanding of the material.
+Andrea Aldridge, Cherry Creek High School teacher
+ <br><br>
+Everly has a tenacity that is unmatched; she never gives up, even when the material becomes particularly complex. This resilience is a quality that will undoubtedly serve her well in her future academic endeavors. 
+                    </p>
+                    <h3>Andrea Aldridge - Cherry Creek High School Social Studies Teacher</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="static/styles/images/user2.jpeg">
+                <div>
+                    <p>
+                        Everly Wan is the hardest working student I have seen in my few years of teaching. I watched her everyday work through learning a new, very different language while excelling at her coursework. Most high school students are not willing to put in the slightest extra effort to achieve deeper learning and Everly was willing to put an immense amount of extra work to translate assignments and outperform students that have every advantage. She is incredibly thoughtful, kind, and advocates for herself. She will be a great addition to any university or community that she is a part of. 
+                    </p>
+                    <h3>Eric Gallagher - Cherry Creek High School Social Studies Teacher</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="static/styles/images/user2.jpeg">
+                <div>
+                    <p>
+                        Everly is the most sincere, thoughtful learner in my English 11 classes. She cares deeply about not only learning the language with more fluency, but she strives to understand the content fully.
+<br><br>
+Everly asks thoughtful, insightful questions as well as contributes astute comments during class discussions. She's an invaluable asset to our learning environment.
+<br><br>
+Everly respects the dignity of each individual around her—no matter their beliefs, understanding of language, or current level of academic success. Everly is inclusive and accepting of all of her peers.
+<br><br>
+Everly is studious and academically focused. She takes control of her learning, putting in more effort than most not only because she's still perfecting her command of English, but also because of her genuine will and desire to be the best version of her intellectual self.
+                    </p>
+                    <h3>Lesley Philipps - Cherry Creek High School English teacher</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="static/styles/images/user1.jpeg">
+                <div>
+                    <p>
+                        Beyond academics, Everly displayed strong interpersonal skills and a kind, supportive nature. She worked well with others, 
+                        contributing positively to the classroom environment and helping to create a collaborative atmosphere. I have no doubt that
+                        she will continue to excel in all her future endeavors, and I feel fortunate to have been part of her enducational journey.
+                    </p>
+                    <h3>Peterson Kari</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h1>Know More About Me</h1>
+        <a href="/about" class="hero-btn">Contact Me</a>
+    </section>
+
+    {% include "base2.html" %}
+<!--
+    <section class="footer">
+        <h4>About My High School</h4>
+        <p>Elon Reeve Musk is a businessman known for his key roles in the space company SpaceX and the
+            automotive company Tesla, Inc. He is also known for his ownership of X Corp.,<br>and his role in the
+            founding of the Boring Company, xAI, Neuralink, and OpenAI</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> By Everly Wan</p>
+    </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
+-->

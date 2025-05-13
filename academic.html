@@ -1,0 +1,88 @@
+{% include "base1.html" %}
+<body>
+    <section class="sub-header3">
+        <nav>
+            <a href="index.html"><img src="static/styles/images/x_study.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About-Me</a></li>
+                    <!--<li><a href="/academic">Academics</a></li>-->
+                    <li><a href="/award">Awards</a></li>
+                    <li><a href="/athletic">Athletics</a></li>
+                    <li><a href="/dubbing">Voice-Acting</a></li>
+                    <li><a href="/teaching">My-Teaching</a></li>
+                    <li><a href="/book">My-Book</a></li>
+                    <li><a href="/volunteering">Volunteering</a></li>
+                    <li><a href="/clubs">Clubs</a></li>
+                    <li><a href="/arts">Arts</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        {% include "base3.html" %}
+        <h1>Athletics</h1>
+    </section>
+    <section class="academic">
+        <h1>Academics</h1>
+        <p>You will notice my growth and progress throughout my 4 years in high school.</p>
+
+        <div class="row">
+            <div class="academic-col">
+                <h3>Grade</h3>
+                <p> All academics: A
+                </p>
+            </div>
+            <div class="academic-col">
+                <h3>GPA</h3>
+                <p>Accumulative GPA (Unweighted): 4.000<br>
+                    Accumulative GPA (Weighted): 4.375<br>
+                    GPA by term (Unweighted): 4.000<br>
+                    GPA by term (weighted): 4.833</p>
+            </div>
+            <div class="academic-col">
+                <h3>SAT</h3>
+                <p>PSAT: 1300<br>
+                    SAT: waiting - Apr 2025
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="awards">
+        <h1>Honors and Awards</h1>
+        <p>Cherry Creek High School Award Every Year</p>
+        <div class="row">
+            <div class="awards-col">
+                <img src="static/styles/images/2024.jpg">
+                <!--<div class="layer">
+                    <h3>Scholar Award for Math</h3>
+                </div>-->
+                <h3>Scholar Award for Math - 2024</h3>
+                <p>This Award is given once per year, with fewer than 10 recipients across all four grades at Cherry Creek High School</p>
+            </div>
+            <div class="awards-col">
+                <img src="static/styles/images/2023.jpg">
+                <!--<div class="layer">
+                    <h3>Outstanding Achievement in English Language Acquisition</h3>
+                </div>-->
+                <h3>Outstanding Achievement in English Language Acquisition - 2023</h3>
+                <p>This Award is given once per year, with fewer than 10 recipients across all four grades at Cherry Creek High School</p>
+            </div>
+            <div class="awards-col">
+                <img src="static/styles/images/FBLA_2024.jpg">
+                <!--<div class="layer">
+                    <h3>1st Place Computer Game & Simulation Programming</h3>
+                </div>-->
+                <h3>1st Place Computer Game & Simulation Programming</h3>
+                <p>1st Place Computer Game & Simulation Programming in my FBLA club</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    {% include "base2.html" %}

@@ -1,0 +1,56 @@
+{% include "base1.html" %}
+<body>
+    <section class="sub-header2">
+        <nav>
+            <a href="index.html"><img src="static/styles/images/x_study.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About-Me</a></li>
+                    <!--<li><a href="/academic">Academics</a></li>-->
+                    <li><a href="/award">Awards</a></li>
+                    <li><a href="/athletic">Athletics</a></li>
+                    <li><a href="/dubbing">Voice-Acting</a></li>
+                    <li><a href="/teaching">My-Teaching</a></li>
+                    <li><a href="/book">My-Book</a></li>
+                    <li><a href="/volunteering">Volunteering</a></li>
+                    <li><a href="/clubs">Clubs</a></li>
+                    <li><a href="/arts">Arts</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        {% include "base3.html" %}
+        <h1>My Arts</h1>
+    </section>
+    <section class="academic">
+        <h1>Arts</h1>
+        <p>Art has always been more than just a hobby for me - it's how I express who I am. From pencil sketches to acrylic landscapes, 
+            I explore the through line, color, and emotion. Drawing and painting have given me a powerful outlet to translate ideas into visuals,
+        and each piece I create reflects my curiosity, discipline and imagination.</p>
+    </section>
+
+    <section class="volunteer">
+        <h1>My Products</h1>
+    <!--    <p>Recoginzed for academic excellence, leadership, service, and character. I contributed to community service projects and mentored
+            underclassmen while upholding the core values of NHS.-->
+        </p>
+        <div class="row">
+            <div class="volunteer-col">
+                <img src="static/styles/images/art01.jpg">
+                <img src="static/styles/images/art02.jpg">
+                <img src="static/styles/images/art03.jpg">
+                <img src="static/styles/images/art04.jpeg">
+                <img src="static/styles/images/art05.jpeg">
+                <img src="static/styles/images/art06.jpg">
+                <img src="static/styles/images/art07.jpg">
+                <img src="static/styles/images/art08.jpg">
+                <img src="static/styles/images/art09.jpeg">
+                <img src="static/styles/images/art10.jpeg">
+                <img src="static/styles/images/art11.jpeg">
+            </div>
+        </div>
+    </section>
+
+    {% include "base2.html" %}
