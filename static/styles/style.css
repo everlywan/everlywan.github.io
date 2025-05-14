@@ -333,6 +333,7 @@ h3 {
 }
 .welcome {
     width: 80%;
+    text-align: center;
 }
 
 .testimonials-col {
