@@ -333,8 +333,8 @@ h3 {
 }
 
 .testimonials-col {
-    flex-basis: 44%;
-    /*flex-basis: 88%;*/
+    /*flex-basis: 44%;*/
+    flex-basis: 100%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
