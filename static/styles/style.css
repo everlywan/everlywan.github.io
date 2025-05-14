@@ -331,6 +331,9 @@ h3 {
     padding-top: 70px;
     text-align: center;
 }
+.welcome {
+    width: 80%;
+}
 
 .testimonials-col {
     /*flex-basis: 44%;*/
