@@ -67,7 +67,7 @@ nav img {
 }
 
 .text-box {
-    width: 80%;
+    width: 90%;
     color: #0077b6;
     position: absolute;
     top: 50%;
@@ -84,11 +84,6 @@ nav img {
     margin: 10px 0 40px;
     font-size: 22px;
     color: #0077b6;
-}
-
-.welcome {
-    width: 80%;
-    text-align: center;
 }
 
 .hero-btn {
