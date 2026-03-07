@@ -26,7 +26,7 @@ nav {
 }
 
 img:hover{
-    transform:scale(1.5);
+    transform:scale(1.25);
 }
 
 nav img {
@@ -223,7 +223,8 @@ h3 {
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
-    overflow: hidden;
+    /* 移除或注释掉下面这一行 */
+    /* overflow: hidden; */ 
 }
 
 .awards-col img {
@@ -231,10 +232,19 @@ h3 {
     display: block;
     height: 350px;
     cursor: pointer;
+    /* 添加平滑过渡效果 */
+    transition: transform 0.3s ease;
+}
+
+/* 增加鼠标悬停时的放大效果 */
+.awards-col:hover img {
+    transform: scale(1.5); /* 放大 10% */
 }
 
 .awards-col:hover {
-    box-shadow: 0 0 20px 0px rgba(0, 0.0, 0.2);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    /* 确保悬停时图片在最上层，不会被相邻列遮挡 */
+    z-index: 1;
 }
 
 .layer {
@@ -700,19 +710,22 @@ h3 {
     padding-bottom: 50px;
     text-align: center;
 }
-.volunteer img{
 
+.volunteer img{
     height: 350px;
-    align-items: center;
-    padding: auto;
+    /* align-items 和 padding: auto 在 img 标签上通常无效，建议移除或改用其他方式 */
     cursor: pointer;
     margin: 5px;
+    /* 添加过渡效果，让放大更平滑 */
+    transition: transform 0.3s ease; 
 }
-.volunteer img:active{
 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(2.5); 
-
+.volunteer img:active {
+    /* 1. 移除 position: fixed 和 top/left，防止脱离文档流 */
+    /* 2. 仅使用 scale 放大 */
+    transform: scale(2.5); 
+    
+    /* 3. 确保被点击的图片在最上层，不被其他图片遮挡 */
+    position: relative;
+    z-index: 10;
 }
